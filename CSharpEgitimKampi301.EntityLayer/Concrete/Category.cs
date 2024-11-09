@@ -1,4 +1,6 @@
-﻿namespace CSharpEgitimKampi301.EntityLayer.Concrete
+﻿using System.Collections.Generic;
+
+namespace CSharpEgitimKampi301.EntityLayer.Concrete
 {
     //Access Modifier ---> internal, public, private, protected
     public class Category
@@ -15,8 +17,9 @@
         //    int x;
         //}
 
-        public int CategoryId { get; set; }
+        public int Id { get; set; }
         public string CategoryName { get; set; }
         public bool Status { get; set; }
+        public List<Product> Products { get; set; }
     }
 }
