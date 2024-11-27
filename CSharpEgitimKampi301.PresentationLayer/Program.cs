@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CSharpEgitimKampi301.PresentationLayer
@@ -18,5 +15,6 @@ namespace CSharpEgitimKampi301.PresentationLayer
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
+
     }
 }
